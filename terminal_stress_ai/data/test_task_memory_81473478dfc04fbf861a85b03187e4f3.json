@@ -1,0 +1,99 @@
+{
+  "sessions": {
+    "chat-session": {
+      "session_id": "chat-session",
+      "active_task": "casual_conversation",
+      "generated_code": "",
+      "language": "plain_text",
+      "recent_suggestions": [
+        {
+          "type": "response",
+          "language": "plain_text",
+          "content": "I am functioning normally. If you want code, tell me the language and the task.",
+          "explanation": "Casual conversation detected; returning a plain-language response instead of code.",
+          "source": "template",
+          "provider": "template",
+          "continuation": false,
+          "structured_output": {
+            "suggestion": {
+              "type": "response",
+              "language": "plain_text",
+              "content": "I am functioning normally. If you want code, tell me the language and the task.",
+              "explanation": "Casual conversation detected; returning a plain-language response instead of code."
+            }
+          }
+        }
+      ],
+      "reasoning_state": "Risk or distrust is elevated, so the system limits itself to minimal suggestions and keeps control with the human.",
+      "reasoning_trace": {
+        "task_understanding": {
+          "active_task": "casual_conversation",
+          "confidence": 0.6,
+          "uses_previous_code": false,
+          "task_continuity": "new_task",
+          "task_objective": "how are u",
+          "retrieved_code": "",
+          "language": "plain_text",
+          "reasoning_state": "Detected casual_conversation with new_task.",
+          "user_profile_hints": {}
+        },
+        "autonomy": {
+          "autonomy_mode": "HUMAN_CONTROL",
+          "autonomy_score": 0.31,
+          "confidence": 0.8,
+          "reason": "Low autonomy score requires human control.",
+          "decision_smoothing_state": {
+            "last_mode": "HUMAN_CONTROL",
+            "pending_mode": "",
+            "safe_streak": 0
+          },
+          "smoothing_applied": true,
+          "suggestion_frequency": "low",
+          "explanation_mode": true,
+          "priority": "critical",
+          "task_alignment": {
+            "active_task": "casual_conversation",
+            "continuity": "new_task"
+          }
+        },
+        "cognitive_state": {
+          "human_cognitive_state": "stable",
+          "stress": {
+            "score": 0.2,
+            "probability": 0.8,
+            "level": "low"
+          },
+          "cognitive_load": {
+            "score": 0.2,
+            "probability": 0.8,
+            "level": "low"
+          },
+          "engagement": {
+            "score": 0.5,
+            "probability": 0.8,
+            "level": "medium"
+          },
+          "trust_level": {
+            "score": 0.5,
+            "probability": 0.8,
+            "level": "medium"
+          },
+          "frustration_index": {
+            "score": 0.14,
+            "level": "low"
+          },
+          "autonomy_readiness_score": {
+            "score": 0.31,
+            "level": "low"
+          }
+        }
+      },
+      "task_history": [
+        {
+          "previous_task": "",
+          "active_task": "casual_conversation"
+        }
+      ]
+    }
+  }
+}

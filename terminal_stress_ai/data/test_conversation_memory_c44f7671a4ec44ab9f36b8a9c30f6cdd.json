@@ -1,0 +1,23 @@
+{
+  "sessions": {
+    "chat-session": {
+      "session_id": "chat-session",
+      "conversation_history": [
+        {
+          "role": "user",
+          "timestamp": "2026-03-12T04:42:41.780791+00:00",
+          "content": "how are u"
+        }
+      ],
+      "code_memory": {
+        "language": "",
+        "last_generated_code": ""
+      },
+      "task_context": {
+        "active_task": "",
+        "task_continuity": "new_task",
+        "reasoning_state": ""
+      }
+    }
+  }
+}
